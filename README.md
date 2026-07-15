@@ -49,30 +49,5 @@ Naveen: Hello Ravi
 Ravi: Hi Naveen
 ```
 
-## What I Learned
 
-While working on this project, I learned:
 
-- Java Socket Programming
-- Client-Server communication
-- Multithreading using Runnable
-- Broadcasting messages
-- Using Git and GitHub for version control
-
-## Future Improvements
-
-If I continue this project, I would like to add:
-
-- Private messaging
-- GUI using JavaFX or Swing
-- File sharing
-- Chat history
-- User authentication
-
-## Author
-
-**Naveen Pogiri**
-
-MCA Graduate
-
-Interested in Java Backend Development
