@@ -25,15 +25,14 @@ This project is a Java Socket Programming application that enables multiple clie
 
 ```
 SocketChatApplication
-│
-├── src
-│   └── com.socketchat
-│       ├── Server.java
-│       ├── Client.java
-│       └── ClientHandler.java
-│
-├── README.md
-```
+
+src
+com.socketchat
+Server.java
+Client.java
+ClientHandler.java
+README.md
+
 
 ## How to Run
 
