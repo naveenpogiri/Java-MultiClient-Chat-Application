@@ -25,9 +25,9 @@ TECHNOLOGIES
 
 PROJECT FILES
 
-- Server.java** – Starts the server and waits for client connections.
-- Client.java** – Connects to the server and allows users to send and receive messages.
-- ClientHandler.java** – Handles communication with each connected client and broadcasts messages.
+- Server.java – Starts the server and waits for client connections.
+- Client.java – Connects to the server and allows users to send and receive messages.
+- ClientHandler.java – Handles communication with each connected client and broadcasts messages.
 
 HOW TO WORK
 
