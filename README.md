@@ -1,4 +1,4 @@
-# Java Multi-Client Chat Application
+Multi client chat Application
 
 ## About the Project
 
