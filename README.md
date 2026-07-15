@@ -1,18 +1,18 @@
 # Java Multi-Client Chat Application
 
-## Overview
+## About the Project
 
-This project is a Java Socket Programming application that enables multiple clients to communicate with each other through a central server. Each connected client runs in a separate thread, allowing multiple users to chat simultaneously.
+This is a simple Java chat application developed using Socket Programming and Multithreading. The main aim of this project is to allow multiple clients to connect to a server and communicate with each other in real time through the console.
+
+I developed this project to understand how client-server communication works in Java and how multiple users can be handled using threads.
 
 ## Features
 
-- Multi-client communication
-- Socket Programming
-- Multithreading using Runnable
-- Broadcast messages to all connected clients
-- Username support
-- Join and leave notifications
-- Console-based chat application
+- Multiple clients can connect to the server.
+- Each client joins the chat with a username.
+- Messages are shared with all connected clients.
+- Join and leave notifications are displayed.
+- Supports multiple clients at the same time using multithreading.
 
 ## Technologies Used
 
@@ -20,62 +20,59 @@ This project is a Java Socket Programming application that enables multiple clie
 - Socket Programming
 - Multithreading
 - Eclipse IDE
+- Git and GitHub
 
-## Project Structure
+## Project Files
 
-```
-SocketChatApplication
-
-src
-com.socketchat
-Server.java
-Client.java
-ClientHandler.java
-README.md
-
+- **Server.java** – Starts the server and waits for client connections.
+- **Client.java** – Connects to the server and allows users to send and receive messages.
+- **ClientHandler.java** – Handles communication with each connected client and broadcasts messages.
 
 ## How to Run
 
-### Start the Server
+1. Run `Server.java`.
+2. Run `Client.java`.
+3. Enter your username.
+4. Run another `Client.java` and enter a different username.
+5. Start chatting.
 
-Run
-
-```
-Server.java
-```
-
-### Start Clients
-
-Open two or more console windows and run
+## Example
 
 ```
-Client.java
-```
-
-Enter different usernames.
-
-Example:
-
-```
+Enter your name:
 Naveen
-Ravi
+
+Connected to Chat Server!
+
+Naveen: Hello Ravi
+
+Ravi: Hi Naveen
 ```
 
-Now both users can exchange messages.
+## What I Learned
 
-## Example Output
+While working on this project, I learned:
 
-```
-Naveen joined the chat.
-Ravi joined the chat.
+- Java Socket Programming
+- Client-Server communication
+- Multithreading using Runnable
+- Broadcasting messages
+- Using Git and GitHub for version control
 
-Naveen:
-Hello Ravi
+## Future Improvements
 
-Ravi:
-Hi Naveen
-```
+If I continue this project, I would like to add:
+
+- Private messaging
+- GUI using JavaFX or Swing
+- File sharing
+- Chat history
+- User authentication
 
 ## Author
 
-Naveen Pogiri
+**Naveen Pogiri**
+
+MCA Graduate
+
+Interested in Java Backend Development
