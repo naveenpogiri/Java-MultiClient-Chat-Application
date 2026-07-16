@@ -1,5 +1,5 @@
  PROJECT NAME:-
- Multi client chat Application
+Java Multi client chat Application
 
 ABOUT THE PROJECT
 
